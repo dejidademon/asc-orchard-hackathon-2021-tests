@@ -35,7 +35,7 @@ describe('Hype Machine', function() {
 });
 
 
-describe.skip('¿Are You Bad Bunny?', function() {
+describe('¿Are You Bad Bunny?', function() {
 
   it('is Bad Bunny', function() {
     assert.strictEqual(eresBadBunny('Bad Bunny'), true);
@@ -52,7 +52,7 @@ describe.skip('¿Are You Bad Bunny?', function() {
 });
 
 
-describe.skip('¿Are You Bad Bunny? - Bonus (Case Insensitive)', function() {
+describe('¿Are You Bad Bunny? - Bonus (Case Insensitive)', function() {
 
   it('is BAD BUNNY', function() {
     assert.strictEqual(eresBadBunny('BAD BUNNY'), true);
@@ -61,7 +61,7 @@ describe.skip('¿Are You Bad Bunny? - Bonus (Case Insensitive)', function() {
 });
 
 
-describe.skip('Lil Rapper', function() {
+describe('Lil Rapper', function() {
 
   it('is Lil (Lil Wayne)', function() {
     assert.strictEqual(areYouLil('Lil Wayne'), true);
@@ -86,7 +86,7 @@ describe.skip('Lil Rapper', function() {
 });
 
 
-describe.skip('Most YouTube Views - Part 1', function() {
+describe('Most YouTube Views - Part 1', function() {
 
   it('returns the most views - 555000', function() {
     assert.strictEqual(mostViewsThreeVideos(100, 555000, 2222), 555000);
@@ -103,7 +103,7 @@ describe.skip('Most YouTube Views - Part 1', function() {
 });
 
 
-describe.skip('Most YouTube Views - Part 2', function() {
+describe('Most YouTube Views - Part 2', function() {
 
   it('returns the most views - 555000', function() {
     assert.strictEqual(mostViews([100, 555000, 2222]), 555000);
@@ -120,7 +120,7 @@ describe.skip('Most YouTube Views - Part 2', function() {
 });
 
 
-describe.skip('Validate Email - Part 1', function() {
+describe('Validate Email - Part 1', function() {
   it('recognizes a valid email', function() {
     assert.strictEqual(validateEmail('notoriousbig@badboy.com').toLowerCase(), 'valid email');
   });
@@ -140,7 +140,7 @@ describe.skip('Validate Email - Part 1', function() {
 });
 
 
-describe.skip('Validate Email - Part 2', function() {
+describe('Validate Email - Part 2', function() {
 
   it('recognizes a valid email', function() {
     assert.strictEqual(
@@ -173,7 +173,7 @@ describe.skip('Validate Email - Part 2', function() {
 });
 
 
-describe.skip('Display an Artist’s Initials - Part 1', function() {
+describe('Display an Artist’s Initials - Part 1', function() {
 
   it('returns the correct initials: Jorja Smith', function() {
     assert.strictEqual(getInitials('Jorja Smith'), 'JS');
@@ -190,7 +190,7 @@ describe.skip('Display an Artist’s Initials - Part 1', function() {
 });
 
 
-describe.skip('Display an Artist’s Initials - Part 2 (One Name)', function() {
+describe('Display an Artist’s Initials - Part 2 (One Name)', function() {
 
   it('returns the correct initials: Ozuna', function() {
     assert.strictEqual(getInitialsOneName('Ozuna'), 'OZ');
@@ -207,24 +207,24 @@ describe.skip('Display an Artist’s Initials - Part 2 (One Name)', function() {
 });
 
 
-describe.skip('Display an Artist’s Initials - Part 3 (Long Name)', function() {
+// describe.skip('Display an Artist’s Initials - Part 3 (Long Name)', function() {
 
-  it('returns the correct initials: Megan Thee Stallion', function() {
-    assert.strictEqual(getInitialsLongName('Megan Thee Stallion'), 'MTS');
-  });
+//   it('returns the correct initials: Megan Thee Stallion', function() {
+//     assert.strictEqual(getInitialsLongName('Megan Thee Stallion'), 'MTS');
+//   });
 
-  it('returns the correct initials: Lil Uzi Vert', function() {
-    assert.strictEqual(getInitialsLongName('Lil Uzi Vert'), 'LUV');
-  });
+//   it('returns the correct initials: Lil Uzi Vert', function() {
+//     assert.strictEqual(getInitialsLongName('Lil Uzi Vert'), 'LUV');
+//   });
 
-  it('returns the correct initials: Run The Jewels', function() {
-    assert.strictEqual(getInitialsLongName('Run The Jewels'), 'RTJ');
-  });
+//   it('returns the correct initials: Run The Jewels', function() {
+//     assert.strictEqual(getInitialsLongName('Run The Jewels'), 'RTJ');
+//   });
 
-});
+// });
 
 
-describe.skip('You’re Really Repeating Yourself... Part 1', function() {
+describe('You’re Really Repeating Yourself... Part 1', function() {
 
   it('returns the correct number of lyrics: "drippin"', function() {
     const lyrics = `came through drippin' (drip drip)
